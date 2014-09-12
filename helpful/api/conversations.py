@@ -6,7 +6,7 @@ class Conversations(object):
     def __init__(self, client):
         self.client = client
 
-    def list(self, account_id, options={}):
+    def all(self, account_id, options={}):
         """List all conversations in an account the user has access to
 
         '/accounts/:account_id/conversations' GET

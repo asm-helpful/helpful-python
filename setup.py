@@ -8,7 +8,7 @@ except ImportError:
 
 setup(
     name='helpful',
-    version='0.1.0',
+    version='1.0.0',
     description='Official Helpful API library client for python',
     author='Pavan Kumar Sunkara',
     author_email='pavan.sss1991@gmail.com',

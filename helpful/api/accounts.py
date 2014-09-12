@@ -6,7 +6,7 @@ class Accounts(object):
     def __init__(self, client):
         self.client = client
 
-    def list(self, options={}):
+    def all(self, options={}):
         """All the accounts the user has access to
 
         '/accounts' GET

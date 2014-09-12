@@ -6,7 +6,7 @@ class People(object):
     def __init__(self, client):
         self.client = client
 
-    def list(self, account_id, options={}):
+    def all(self, account_id, options={}):
         """List all people in the account the user has access to
 
         '/accounts/:account_id/people' GET
